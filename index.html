@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Curious Minds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 0;
+      background-color: #006769;
+      color: #ffffff;
+    }
+
+    .header {
+      padding: 20px;
+      background: #006769;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      width: 80px; /* Adjust size as needed */
+      height: auto;
+      margin-right: 20px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-family: 'Roboto Condensed', sans-serif;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #555555;
+    }
+
+    .navbar a.right {
+      float: right;
+    }
+
+    .main-content {
+      padding: 20px;
+      background-color: #83b2b3;
+      color: #000000;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .article {
+      width: 30%;
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .article:hover {
+      transform: scale(1.05);
+    }
+
+    .article img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .article:hover img {
+      filter: brightness(80%);
+    }
+
+    .article-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .article-description {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #006769;
+      color: #ffffff;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <a href="index.html">
+    <img src="images/logo.png" alt="The Curious Minds Logo" class="logo">
+  </a>
+  <div>
+    <h1>The Curious Minds</h1>
+    <p>Unveiling the Wonders of Science and Math Every Week</p>
+  </div>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="discoveries.html">Historical Science</a>
+  <a href="science-problems.html">Math & Physics Problems</a>
+  <a href="math-lessons.html">Lessons</a>
+  <a href="contact.html" class="right">Contact</a>
+</div>
+
+<div class="main-content">
+  <div class="article">
+    <a href="about_us.html">
+      <img src="images/ourmission.jpg" alt="Our Mission" />
+      <div class="article-title">About Us</div>
+      <div class="article-description">Welcome to The Curious Minds, your weekly gateway to the latest discoveries, historical milestones, and engaging exercises across the realm of science. Our mission is to inspire and inform curious minds from 14 years old through university-level students, fostering a deeper understanding and appreciation of the scientific world.</div>
+    </a>
+  </div>
+
+  <div class="article">
+    <a href="latest_discoveries.html">
+      <img src="images/newdiscoveries.jpg" alt="Latest Discoveries" />
+      <div class="article-title">Latest Discoveries</div>
+      <div class="article-description">Stay updated with our curated selection of the most intriguing discoveries and advancements in science. Each week, we bring you breakthroughs from diverse fields such as astronomy, biology, physics, and beyond.</div>
+    </a>
+  </div>
+
+  <div class="article">
+    <a href="math_challenges.html">
+      <img src="images/mathquestion.jpg" alt="Math Challenges" />
+      <div class="article-title">Math Challenges</div>
+      <div class="article-description">Sharpen your mathematical prowess with our tailored challenges designed for different age groups, from foundational concepts to complex problems for university-level students.</div>
+    </a>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>The Curious Minds</h2>
+  <p>Join us every week for new insights into the world of science and math.</p>
+</div>
+
+</body>
+</html>
